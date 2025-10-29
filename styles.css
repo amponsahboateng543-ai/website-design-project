@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -134,7 +135,7 @@ ul li a:hover{
     width: 1200px;
     height: auto;
     margin: auto;
-    color: #fff;
+    color:#fff;
     position: relative;
 
 }
@@ -323,6 +324,14 @@ ul li a:hover{
     height: 100%;
     z-index: -1;
     opacity: 0.5;
+
+}
+
+img{
+    width: 109px;
+    height: 109px;
+    position: absolute;
+    animation: animate 20s linear infinite;
 
 }
 
